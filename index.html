@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHH Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <section class="personal-info">
+            <img id="profile-picture" src="images/profile.png" alt="Profile Picture" />
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong>
+                <span id="name">Syed Hamza Hussain</span></p>
+            <p><strong>Email:</strong>
+                <span id="email">hussainhamza993@gmail.com</span></p>
+            <p><strong>Phone:</strong>
+                <span id="phone">+92-312-9842907</span></p>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in <b>Computer Science</b> - Virtual University Of Pakistan</li>
+                <li>Intermediate in <b>Pre-Engineering</b> - Karachi Board</li>
+                <li>Matriculation in <b>Computer Science</b> - Karachi Board</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>HTML & CSS</li>
+                <li>WordPress Development</li>
+            </ul>
+            <button id="toggle-skills">Show Skills</button>
+        </section>
+
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Coordinator at XYZ Company - 2024-Present</li>
+                <li>Freelance WordPress Web Developer - 2019-Present</li>
+            </ul>
+            <button id="toggle-work-experience">Show Work Experience</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
